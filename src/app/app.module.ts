@@ -8,6 +8,7 @@ import { Navbar_main_HotelComponent } from './components/page_one/header/navbar_
 import { Page_mainComponent } from './page/page_main/page_main.component';
 import { InformationComponent } from './components/page_one/header/information/information.component';
 import { OptionComponent } from './components/page_one/body/option/option.component';
+import { Serch_boxComponent } from './components/page_one/body/option/serch_box/serch_box.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { OptionComponent } from './components/page_one/body/option/option.compon
     Page_mainComponent,
     InformationComponent,
     OptionComponent,
+    Serch_boxComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
