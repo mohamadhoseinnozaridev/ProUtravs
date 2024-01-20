@@ -9,6 +9,7 @@ import { Page_mainComponent } from './page/page_main/page_main.component';
 import { InformationComponent } from './components/page_one/header/information/information.component';
 import { OptionComponent } from './components/page_one/body/option/option.component';
 import { Serch_boxComponent } from './components/page_one/body/option/serch_box/serch_box.component';
+import { Serch_cityComponent } from './modal/serch_city/serch_city.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { Serch_boxComponent } from './components/page_one/body/option/serch_box/
     InformationComponent,
     OptionComponent,
     Serch_boxComponent,
+    Serch_cityComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
