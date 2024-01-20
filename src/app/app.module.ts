@@ -10,6 +10,7 @@ import { InformationComponent } from './components/page_one/header/information/i
 import { OptionComponent } from './components/page_one/body/option/option.component';
 import { Serch_boxComponent } from './components/page_one/body/option/serch_box/serch_box.component';
 import { Serch_cityComponent } from './modal/serch_city/serch_city.component';
+import { Banner_siteComponent } from './components/page_one/body/option/banner_site/banner_site.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { Serch_cityComponent } from './modal/serch_city/serch_city.component';
     OptionComponent,
     Serch_boxComponent,
     Serch_cityComponent,
+    Banner_siteComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
